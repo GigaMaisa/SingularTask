@@ -1,13 +1,13 @@
-package steps;
+package task1.steps;
 
-import api.RegisterApi;
+import task1.api.RegisterApi;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import model.RegisterRequestDto;
-import model.RegisterResponseDto;
-import util.ApiResult;
+import task1.model.RegisterRequestDto;
+import task1.model.RegisterResponseDto;
+import task1.util.ApiResult;
 
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.fail;

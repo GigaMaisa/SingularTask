@@ -1,10 +1,10 @@
-package api;
+package task1.api;
 
 import io.restassured.response.Response;
-import model.RegisterRequestDto;
-import model.RegisterResponseDto;
-import util.ApiParser;
-import util.ApiResult;
+import task1.model.RegisterRequestDto;
+import task1.model.RegisterResponseDto;
+import task1.util.ApiParser;
+import task1.util.ApiResult;
 
 public class RegisterApi extends BaseApi implements IRegisterApi {
     @Override

@@ -1,10 +1,10 @@
-package api;
+package task1.api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import static constants.Constants.BASE_URL;
+import static task1.constants.Constants.BASE_URL;
 
 public abstract class BaseApi {
     protected RequestSpecification baseRequest() {

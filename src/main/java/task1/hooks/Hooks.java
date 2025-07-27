@@ -1,4 +1,4 @@
-package hooks;
+package task1.hooks;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.After;

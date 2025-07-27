@@ -1,4 +1,4 @@
-package util;
+package task1.util;
 
 public abstract class ApiResult<T> {
 
